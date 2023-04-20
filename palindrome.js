@@ -1,16 +1,16 @@
 let str = "anna";
 
-let Str = "";
+let name= "";
 
-for(let i = str.length; i >=0; i--)
+for(let i = str.length-1; i >=0; i--)
   {
-    Str += str[i];
+    name+= str[i];
   }
 let flag = false;
 
 for(let j = 0; j < str.length; j++)
   {
-    if(str[j] != Str[j])
+    if(str[j] != name[j])
     {
       flag = true;
     }
